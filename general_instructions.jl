@@ -1,7 +1,7 @@
 # Julia Code-Generation Guidelines
 
 ---
-applyTo: "*.jl"
+applyTo: "**/*.jl"
 ---
 
 When generating **Julia** functions, follow this exact docstring format:
