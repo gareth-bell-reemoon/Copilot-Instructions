@@ -48,3 +48,15 @@ When generating **Julia** functions, follow this exact docstring format:
 function generate_null_flight_plan(source::Tuple{Float64, Float64})
     …
 end
+
+    ---
+applyTo: "**/*"
+---
+# Git Commit Message Guidelines
+
+1. **Subject**: Imperative, ≤50 chars, capitalized, no period.
+2. **Body** (optional): Blank line → wrap at 72 chars → explain _what_ & _why_.
+3. **Footer** (optional): Issue refs, `BREAKING CHANGE: ...`.
+4. **Conventional Commits**:  
+   - Format: `<type>[scope]: <description>`.  
+   - Types: feat, fix, docs, chore, refactor, test, perf.  
